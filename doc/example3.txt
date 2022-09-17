@@ -1,0 +1,5 @@
+// A bad example.
+
+A -> a
+B -> b
+C ->

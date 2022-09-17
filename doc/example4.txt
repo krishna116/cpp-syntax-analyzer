@@ -1,0 +1,7 @@
+// This is invalid LL1 grammar.
+
+S -> A B c
+A -> a
+A -> epsilon
+B -> a
+B -> epsilon

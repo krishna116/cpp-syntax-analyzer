@@ -1,0 +1,9 @@
+// This is valid LL1 grammar.
+
+Tree            -> [ LABEL ZeroOrMoreTree ]
+
+ZeroOrMoreTree  -> OneOrMoreTree
+ZeroOrMoreTree  -> epsilon
+
+OneOrMoreTree   -> Tree OneOrMoreTree
+OneOrMoreTree   -> LABEL

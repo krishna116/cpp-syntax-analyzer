@@ -1,0 +1,30 @@
+/**
+ * The MIT License
+ *
+ * Copyright 2022 Krishna sssky307@163.com
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+#pragma once
+
+namespace csa{
+namespace config{
+    auto constexpr AppName      = "${PROJECT_NAME}";
+    constexpr auto VersionMajor = ${PROJECT_VERSION_MAJOR};
+    constexpr auto VersionMinor = ${PROJECT_VERSION_MINOR};
+    constexpr auto VersionPatch = ${PROJECT_VERSION_PATCH};
+    constexpr auto VersionStr   = "${PROJECT_NAME} version ${PROJECT_VERSION}";
+
+    constexpr auto HelpStr      = R"(${PROJECT_NAME} [options] <file>
+
+It is used to parse LL1 grammar.
+
+Options:
+  -o --out <file>       specify output filename.
+  -v --version          show version.
+  -h --help             show help.)";
+
+} // namespace config
+} // namespace csa

@@ -1,0 +1,7 @@
+//
+// This is a minimal input example.
+// This is a valid LL1 syntax/grammar.
+//
+
+S -> ( S ) S 
+S -> epsilon

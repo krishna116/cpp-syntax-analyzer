@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head></head><body>
+<h2>Production Table</h2>
+
+    <style type="text/css">
+        .tg {
+            border-collapse: collapse;
+            border-color: #bbb;
+            border-spacing: 0;
+        }
+
+        .tg td {
+            background-color: #E0FFEB;
+            border-color: #bbb;
+            border-style: solid;
+            border-width: 1px;
+            color: #202020;
+            font-family: Monospace, sans-serif, Arial;
+            font-size: 14px;
+            overflow: hidden;
+            padding: 3px 8px;
+            word-break: normal;
+        }
+
+        .tg th {
+            background-color: #9DE0AD;
+            border-color: #bbb;
+            border-style: solid;
+            border-width: 1px;
+            color: #202020;
+            font-family: Monospace, sans-serif, Arial;
+            font-size: 14px;
+            font-weight: normal;
+            overflow: hidden;
+            padding: 3px 8px;
+            word-break: normal;
+        }
+
+        .tg .tg-18eh {
+            border-color: #202020;
+            color: #202020;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-hos7 {
+            border-color: #202020;
+            color: #202020;
+            font-family: Monospace, sans-serif, Arial !important;
+            font-size: 14px;
+            text-align: center;
+            vertical-align: top
+        }
+
+        .tg .tg-1tol {
+            border-color: #202020;
+            color: #202020;
+            font-weight: bold;
+            text-align: left;
+            vertical-align: middle
+        }
+
+        .tg .tg-mqa1 {
+            border-color: #202020;
+            color: #202020;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: top
+        }
+
+        .tg .tg-mcqj {
+            border-color: #202020;
+            color: #202020;
+            font-weight: bold;
+            text-align: left;
+            vertical-align: top
+        }
+
+        .tg .tg-8m2j {
+            border-color: #202020;
+            color: #202020;
+            font-family: Monospace, sans-serif, Arial !important;
+            font-size: 14px;
+            text-align: left;
+            vertical-align: top
+        }
+    </style>
+<table class="tg">
+
+        <thead>
+            <tr>
+                <th class="tg-1tol">Id</th>
+                <th class="tg-mqa1">Production(A -&gt; XYZ)</th>
+                <th class="tg-mcqj">FirstSet(XYZ)</th>
+                <th class="tg-mcqj">FollowSet(A)</th>
+                <th class="tg-18eh">PredictSet(XYZ)</th>
+                <th class="tg-mcqj">IsNillable(XYZ)</th>
+            </tr>
+        </thead>
+        <tbody>
+<tr>
+<td class="tg-hos7">1</td>
+<td class="tg-8m2j">Start&nbsp;-&gt;&nbsp;S&nbsp;$</td>
+<td class="tg-8m2j">$&nbsp;(</td>
+<td class="tg-8m2j"></td>
+<td class="tg-8m2j">$&nbsp;(</td>
+<td class="tg-hos7">no</td>
+</tr>
+<tr>
+<td class="tg-hos7">2</td>
+<td class="tg-8m2j">S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&gt;&nbsp;(&nbsp;S&nbsp;)&nbsp;S</td>
+<td class="tg-8m2j">(</td>
+<td class="tg-8m2j">$&nbsp;)</td>
+<td class="tg-8m2j">(</td>
+<td class="tg-hos7">no</td>
+</tr>
+<tr>
+<td class="tg-hos7">3</td>
+<td class="tg-8m2j">S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&gt;&nbsp;epsilon</td>
+<td class="tg-8m2j"></td>
+<td class="tg-8m2j">$&nbsp;)</td>
+<td class="tg-8m2j">$&nbsp;)</td>
+<td class="tg-hos7">yes</td>
+</tr>
+</tbody>
+</table>
+<h2>LL(1) Table</h2>
+
+    <style type="text/css">
+        .tg {
+            border-collapse: collapse;
+            border-color: #bbb;
+            border-spacing: 0;
+        }
+
+        .tg td {
+            background-color: #E0FFEB;
+            border-color: #bbb;
+            border-style: solid;
+            border-width: 1px;
+            color: #594F4F;
+            font-family: Monospace, sans-serif, Arial;
+            font-size: 14px;
+            overflow: hidden;
+            padding: 3px 8px;
+            word-break: normal;
+        }
+
+        .tg th {
+            background-color: #9DE0AD;
+            border-color: #bbb;
+            border-style: solid;
+            border-width: 1px;
+            color: #493F3F;
+            font-family: Monospace, sans-serif, Arial;
+            font-size: 14px;
+            font-weight: normal;
+            overflow: hidden;
+            padding: 3px 8px;
+            word-break: normal;
+        }
+
+        .tg .tg-18eh {
+            border-color: #202020;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-hos7 {
+            border-color: #202020;
+            color: #202020;
+            font-family: Monospace, sans-serif, Arial !important;
+            font-size: 14px;
+            text-align: center;
+            vertical-align: top
+        }
+
+        .tg .tg-1tol {
+            border-color: #202020;
+            font-weight: bold;
+            text-align: left;
+            vertical-align: middle
+        }
+
+        .tg .tg-mqa1 {
+            border-color: #202020;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: top
+        }
+
+        .tg .tg-mcqj {
+            border-color: #202020;
+            font-weight: bold;
+            text-align: left;
+            vertical-align: top
+        }
+
+        .tg .tg-8m2j {
+            border-color: #202020;
+            color: #202020;
+            font-family: Monospace, sans-serif, Arial !important;
+            font-size: 14px;
+            text-align: left;
+            vertical-align: top
+        }
+    </style>
+        <table class="tg">
+<thead>
+<tr>
+<th class="tg-1tol" rowspan="2">Nonterminal</th>
+<th class="tg-mqa1" colspan="3">Terminal</th>
+</tr>
+<tr>
+<th class="tg-mqa1">)</th>
+<th class="tg-mqa1">(</th>
+<th class="tg-mqa1">$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-hos7">Start</td><td class="tg-8m2j"></td>
+<td class="tg-8m2j">1</td>
+<td class="tg-8m2j">1</td>
+</tr>
+<tr>
+<td class="tg-hos7">S</td><td class="tg-8m2j">3</td>
+<td class="tg-8m2j">2</td>
+<td class="tg-8m2j">3</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+

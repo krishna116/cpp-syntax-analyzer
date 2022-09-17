@@ -1,0 +1,13 @@
+//
+// You can add some comment here.
+//
+// This is a valid LL1 syntax/grammar.
+//
+
+E   -> T E1
+E1  -> + T E1
+E1  -> epsilon
+T   -> F T1
+T1  -> * F T1
+T1  -> epsilon
+F   -> ( E ) id

@@ -1,0 +1,8 @@
+// This is valid LL1 grammar.
+
+Value -> num
+Value -> lparen Expr rparen
+Expr  -> plus Value Value
+Expr  -> prod Values
+Values -> Value Values
+Values -> epsilon
